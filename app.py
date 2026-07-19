@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "!!version 2 - webhook working!--by Santhosh"
+    return "version 2 - webhook working!--by Santhosh"
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
